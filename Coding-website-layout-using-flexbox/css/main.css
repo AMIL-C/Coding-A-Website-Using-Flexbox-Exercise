@@ -102,33 +102,41 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "ZCOOL QingKe HuangYou", "Courier New";
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
 }
 
 header,
 footer {
   display: flex;
-  background-color: #222;
-  height: 80px;
   width: 100%;
-  justify-content: center;
+  background-color: #222;
+  justify-content: flex-start;
   align-items: center;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #000000;
   height: 250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #FFF;
 }
 
 header,
 footer,
 main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #div-1,
