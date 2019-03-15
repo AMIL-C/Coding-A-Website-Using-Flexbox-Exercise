@@ -10,11 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+/* html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
+} */
 
 /*
  * Remove text-shadow in selection highlight:
@@ -96,7 +96,10 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  background-color: #000;
   height: 100%;
   width: 100%;
 }
@@ -191,7 +194,7 @@ p span {
   font-family: "ZCOOL QingKe HuangYou", "Courier New";
   font-size: 1em;
   background-color: #f16059;
-  width: 30%;
+  /* width: 30%;*/
   height: 200px;
   justify-content: left;
   align-items: center;
@@ -303,6 +306,7 @@ footer i {
     /* set your flex value to 1 100% */
     border-left: 1px solid #555;
     border-right: 1px solid #555;
+    padding: 0 40px;
   }
 }
 
